@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黄金左直,双打之神</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color:rgb(191, 255, 0)">不可复刻的人民艺术家</h1>
+    <section><img src="images/许昕.jpg" alt="许昕" width="500px" height="600px"></section><section><h3>许昕5岁开始学打乒乓球。 [17]2004年，在世界少年挑战赛上，获得男团、男单、男双冠军。 [235]2006年，入选国家一队。 [235]2009年，搭档王励勤，获全运会男双冠军。 [1] [235]2010年，获广州亚运会混双、男团冠军及男双亚军。 [2-3]2011年，获鹿特丹世乒赛男双冠军。 [4]2012年，在国际乒联职业巡回赛总决赛中夺得男单冠军， [5]并在次年总决赛男单决赛中，以4-3战胜马龙，成为继马龙之后第二位卫冕总决赛男单冠军的选手 [6]。2013年，在乒乓球世界杯上获得男单冠军，成为中国首位获得男单世界冠军的左手运动员。 [7]2014年，参加仁川亚运会，获得男单、男团冠军及男双亚军。 [8-9]2015年，在苏州世乒赛中获得混双、男双冠军； [10-11]10月，参加全国乒乓球锦标赛，获得男团、男单和男双三项冠军。 [12]2016年，获得里约奥运会乒乓球男团冠军。 [13]2016年12月，进入国际乒联名人堂。 [189]2017年5月，获得杜塞尔多夫世乒赛男双冠军及男单季军； [70] [235]9月，率领上海队夺得全运会乒乓球男团冠军。 [235]2019年，获布达佩斯世乒赛混双冠军。 [85]2021年7月26日，在东京奥运会乒乓球混双决赛中，搭档刘诗雯，夺得乒乓球混双银牌； [172]8月6日，参加东京奥运会乒乓球男团决赛，与马龙、樊振东组队，获得乒乓球男团冠军； [174]9月24日，搭档刘诗雯，夺得第十四届全运会乒乓球混双冠军。 [185]</h3></section>
+    <section><h3><a href="https://www.bilibili.com/video/BV1SM4y1u7Vn/">人民艺术家的杰作</a></h3></section>    
+    <section><h2><a href="index.html">返回主页</a></h2></section>
+
+    <div style="position: absolute;right: 20%;top:20%;font-size:50px;">
+        许昕在国际赛场赢了马龙几次
+    </div>
+    <input id="in" style="position: absolute;left: 45%;top:30%;font-size: 25px;width: 500px;height: 30px;">
+    <button style="position: absolute;left:75%;top:30%;font-size: 25px;width: 100px;height: auto;" onclick="judge()">提交</button>
+    <div id="result" style="position:absolute;left: 45%;top: 40%;font-size: 50px;color: red;"></div>
+
+    <script>
+        let input = document.getElementById('in');
+        let res = document.getElementById('result');
+        function judge(){
+            if(input.value == 10) res.innerText = '回答正确';
+            else res.innerText = '回答错误,再试一次';
+        }
+    </script></body>
+</html>

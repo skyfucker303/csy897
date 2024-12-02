@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国乒队长,双圈大满贯,乒坛GOAT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color:red">只要心怀热爱，永远都是当打之年</h1>
+        <section><img src="images/马龙.jpg" alt="马龙" width="500px" height="700px"></section><section><h3>马龙从5岁开始在辽宁鞍山学习乒乓球,2003年进入国家队。2012年,在世界杯中夺得首个世界单打冠军。2013年,蝉联亚锦赛男单冠军,首位亚锦赛男单三连冠的选手;5月入选国际乒联名人堂。2014年,成就亚洲杯四冠 ;4月,当选中国乒乓男队队长。2015年,连续夺得苏州世乒赛、乒乓球世界杯、国际乒联世界巡回赛总决赛男单冠军,乒乓球历史上首位一年内取得这三项冠军的男子球员。2016年里约奥运会,夺得男单、男团冠军。2017年6月,德国杜塞尔多夫世乒赛夺冠;9月6日,第十三届全运会乒乓球男单夺冠 。2020年10月,摘得全国乒乓球锦标赛双打金牌。2021年7月30日,夺得东京奥运会乒乓球男单冠军;8月6日,夺得东京奥运会乒乓球男团冠军。2024年4月21日,夺得2024年乒乓球世界杯男单冠军,第三次夺得世界杯男单冠军;5月14日,入选中国乒乓球队参加2024年巴黎奥运会运动员名单;7月24日,担任巴黎奥运会开幕式中国体育代表团旗手 。8月9日,夺得2024年巴黎奥运会乒乓球男子团体冠军,成为中国首位六金得主;9月,马龙被北京市委、市政府授予记大功奖励。当地时间10月30日,马龙获2024年国家和地区奥林匹克委员会协会颁奖典礼杰出运动生涯奖。</h2></section>
+        <section><h3><a href="https://www.bilibili.com/video/BV1x541157o1/">回顾巅峰龙的统治力</a></h3></section>      
+        <section><h2><a href="index.html">返回主页</a></h2></section>
+
+    <div style="position: absolute;right: 20%;top:20%;font-size:50px;">
+        马龙一共有多少个世界冠军
+    </div>
+    <input id="in" style="position: absolute;left: 45%;top:30%;font-size: 25px;width: 500px;height: 30px;">
+    <button style="position: absolute;left:75%;top:30%;font-size: 25px;width: 100px;height: auto;" onclick="judge()">提交</button>
+    <div id="result" style="position:absolute;left: 45%;top: 40%;font-size: 50px;color: red;"></div>
+
+    <script>
+        let input = document.getElementById('in');
+        let res = document.getElementById('result');
+        function judge(){
+            if(input.value == 31) res.innerText = '回答正确';
+            else res.innerText = '回答错误,再试一次';
+        }
+    </script>
+</body>
+</html>
