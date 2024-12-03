@@ -4,16 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>112寝室</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="position: absolute;left:45%">112寝室主页</h1>
+    <header>
+    <h1>112寝室主页</h1>
     <nav>
-    <li style="position:absolute;top:20%;left:45%;"><a href="index.html">陈思宇</a></li>
-    <li style="position:absolute;top:30%;left:45%;"><a href="张继科.html">张竞文</a></li>
-    <li style="position:absolute;top:40%;left:45%;"><a href="许昕.html">朱谭凡</a></li>
-    <li style="position:absolute;top:50%;left:45%;"><a href="樊振东.html">姬昕昊</a></li>
-    <li style="position:absolute;top:60%;left:45%;"><a href="https://azuremgd.github.io/innovation-class/homepage/cs2401">班级主页</a></li>
-    </nav>
+    <ul>
+        <li><a href="index.html">陈思宇</a></li>
+    <li><a href="张继科.html">张竞文</a></li>
+    <li><a href="许昕.html">朱谭凡</a></li>
+    <li><a href="樊振东.html">姬昕昊</a></li>
+    <li><a href="https://azuremgd.github.io/innovation-class/homepage/cs2401">班级主页</a></li>
+</ul>    
+</nav>
+</header>
+<img src="images/beijing.jpg" alt="背景"width="1000px" height="1000px">
+<div style="position: absolute;right: 10%;top:20%;font-size:50px;">
+    我们寝室有几个人是创新班的
+</div>
+<input id="in" style="position: absolute;left: 60%;top:30%;font-size: 25px;width: 500px;height: 30px;">
+<button style="position: absolute;left:90%;top:30%;font-size: 25px;width: 100px;height: auto;" onclick="judge()">提交</button>
+<div id="result" style="position:absolute;left: 60%;top: 40%;font-size: 50px;color: red;"></div>
+
+<script>
+    let input = document.getElementById('in');
+    let res = document.getElementById('result');
+    function judge(){
+        if(input.value == 3) res.innerText = '回答正确';
+        else res.innerText = '回答错误,再试一次';
+    }
+</script>
 </body>
 </html>
